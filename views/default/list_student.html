@@ -1,0 +1,33 @@
+{{extend 'layout.html'}}
+
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Id</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Email</th>
+    </tr>
+  </thead>
+  <tbody>
+  	{{for student in students:}}
+    <tr class="table-active">
+      <td>{{=student['id']}}</td>
+      <td>{{=student['first_name']}}</td>
+      <td>{{=student['last_name']}}</td>
+      <td>{{=student['email']}}</td>
+      <td><a href="delete?id={{=student['id']}}">Delete</a></td>
+      <td><a href="details?id={{=student['id']}}">Details</a></td>
+
+    </tr>
+    {{pass}}
+    
+  </tbody>
+</table>
+
+
+
+
+
+

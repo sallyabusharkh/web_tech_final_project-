@@ -1,0 +1,61 @@
+{{extend 'Layout.html'}}
+<div class="overlay">
+    <div class="container">
+        <div class="row row1">
+            <div class="col-12 my-5">
+                <h1 class="mainTitle mainTitle2">
+                    My Courses 
+                </h1>
+                <!-- <p class="info">With us, you can control and perform all your registration processes.</p> -->
+            </div>
+            <div class="col-12">
+                
+                    <table class="table text-dark data text-center my-5">
+                        <thead>
+                        <tr class="row">
+                            <th class="col needtowrap">#</th>
+                            <th class="col needtowrap">Code</th>
+                            <th class="col-2 needtowrap">Name</th>
+                            <th class="col-2 needtowrap">Days</th>
+                            <th class="col-2 needtowrap">Time</th>
+                            <th class="col-1 needtowrap">Room</th>
+                       
+
+                        </tr>
+                        </thead>
+                        <tbody class="coursesDataTable">
+                          
+                        </tbody>
+                      </table>
+                
+            </div>
+        </div>
+    </div>
+    <div class="modal" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title"></h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p class="modalCode"></p>
+              <p class="modalDescription"></p>
+              <p class="modalInstructor"></p>
+              <p class="modalDays"></p>
+              <p class="modalTime"></p>
+              <p class="modalRoom"></p>
+              <p class="modalPrerequisites"> </p>
+              <p class="modalCapacity">Capacity: </p>
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary close2" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+<script src="{{=URL('static','js/yourCoursesJs.js')}}"></script>
