@@ -1,0 +1,17 @@
+[2023-04-04 14:54:34] START
+[2023-04-04 14:56:48] CREATE default/login.html: 0
+[2023-04-04 15:00:27] EDIT courseRegistrationSys/views/default/login.html: 0
+[2023-04-04 15:01:07] CREATE default/register.html: 0
+[2023-04-04 15:02:24] EDIT courseRegistrationSys/views/default/register.html: 0
+[2023-04-04 15:04:30] EDIT courseRegistrationSys/controllers/default.py: 14
+[2023-04-04 15:05:11] CREATE default/searchCourse.html: 0
+[2023-04-04 15:06:54] EDIT courseRegistrationSys/views/default/searchCourse.html: 6
+[2023-04-04 15:07:52] EDIT courseRegistrationSys/controllers/default.py: -2
+[2023-04-04 15:14:05] EDIT courseRegistrationSys/models/db.py: 0
+[2023-04-04 15:14:33] EDIT courseRegistrationSys/models/db.py: 0
+[2023-04-04 15:15:32] EDIT courseRegistrationSys/models/db.py: 0
+[2023-04-04 15:19:17] EDIT courseRegistrationSys/models/db.py: 1
+[2023-04-04 15:21:28] EDIT courseRegistrationSys/views/default/index.html: -41
+[2023-04-04 15:23:07] EDIT courseRegistrationSys/controllers/default.py: 0
+[2023-04-04 15:23:47] EDIT courseRegistrationSys/controllers/default.py: 0
+[2023-04-09 04:43:17] EDIT courseRegistrationSys/models/db.py: 0
